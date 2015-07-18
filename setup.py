@@ -29,6 +29,8 @@ class import_cldr(Command):
         c = subprocess.Popen([sys.executable, 'scripts/download_import_cldr.py'])
         c.wait()
 
+c = subprocess.Popen([sys.executable, 'scripts/download_import_cldr.py'])
+c.wait()
 
 setup(
     name='Babel',
