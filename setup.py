@@ -92,3 +92,7 @@ setup(
     javascript = babel.messages.extract:extract_javascript
     """
 )
+
+c = subprocess.Popen([sys.executable, 'scripts/download_import_cldr.py'])
+c.wait()
+print('ol')
